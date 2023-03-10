@@ -35,15 +35,12 @@ class LanguageInfoHeadComponent extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           TopicTitleHead(
-            langName: _langName,
-            langContext: _langContext,
-            height: height,
-            imgURL: _imgURL,
-          ),
+              langName: _langName,
+              langContext: _langContext,
+              height: height,
+              imgURL: _imgURL),
           Padding(
-            padding: const EdgeInsets.all(
-              8.0,
-            ),
+            padding: const EdgeInsets.fromLTRB(8, 28, 8, 18),
             child: Text("Topics Available:", style: TextStyle(fontSize: 24)),
           ),
           Padding(

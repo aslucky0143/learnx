@@ -19,7 +19,7 @@ class _LearningHomeState extends State<LearningHome> {
       backgroundColor: Colors.transparent,
       body: Column(
         children: [
-          SalutationLearnings(salutation: "What do u want to learn now?"),
+          SalutationLearnings(salutation: "What do u want to learn \nnow?"),
           CollectionTextFetchFS()
         ],
       ),
