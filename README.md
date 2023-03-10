@@ -1,6 +1,6 @@
-# learnx
+# Learn X
 
-A new Flutter project.
+A new Flutter project. This project helps the a student to learn the subject in a very easiest form that a user can
 
 ## Getting Started
 
