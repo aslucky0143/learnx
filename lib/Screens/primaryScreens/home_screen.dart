@@ -13,19 +13,22 @@ class HomeScreen extends StatelessWidget {
     required this.user,
     required this.left,
     required this.controller,
-
   });
-final PageController controller;
+  final PageController controller;
   final User user;
   final double left;
 
   @override
   Widget build(BuildContext context) {
+    currentuser = user;
     return Column(
       mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        ProfileBar(user: user),
+        ProfileBar(
+          user: user,
+          controller: controller,
+        ),
         SizedBox(
           height: 24,
         ),
@@ -54,7 +57,10 @@ final PageController controller;
         SizedBox(
           height: 70,
         ),
-        DashBoardNavigationCard(left: left,controller: controller,)
+        DashBoardNavigationCard(
+          left: left,
+          controller: controller,
+        )
       ],
     );
   }

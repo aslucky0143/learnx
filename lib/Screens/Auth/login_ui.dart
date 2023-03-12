@@ -59,7 +59,7 @@ class LoginUI extends StatelessWidget {
                       width: 20,
                     ),
                     Text(
-                      "SignIn With Google",
+                      "Get Started With Google",
                       style: TextStyle(
                         fontSize: 18,
                         color: c4,
@@ -69,19 +69,6 @@ class LoginUI extends StatelessWidget {
                 ),
               ),
             ),
-            TextButton(
-              onPressed: () {
-                if (controller.hasClients) {
-                  controller.animateToPage(1,
-                      duration: Duration(milliseconds: 800),
-                      curve: Curves.easeInOut);
-                }
-              },
-              child: Text(
-                "Don't Have Account? Click Here👆",
-                style: TextStyle(color: c3),
-              ),
-            )
           ],
         ),
       ],

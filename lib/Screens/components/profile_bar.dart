@@ -8,9 +8,11 @@ class ProfileBar extends StatelessWidget {
   const ProfileBar({
     super.key,
     required this.user,
+    required this.controller,
   });
 
   final User user;
+  final controller;
 
   @override
   Widget build(BuildContext context) {
@@ -24,9 +26,13 @@ class ProfileBar extends StatelessWidget {
         ),
         GestureDetector(
           onTap: () {
-            final provider =
-                Provider.of<GoogleSignInProvider>(context, listen: false);
-            provider.logOut();
+            if (controller.hasClients) {
+              controller.animateToPage(
+                2,
+                duration: Duration(milliseconds: 500),
+                curve: Curves.ease,
+              );
+            }
           },
           child: CircleAvatar(
             radius: 20,

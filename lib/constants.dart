@@ -1,5 +1,6 @@
 // ignore_for_file: file_names, prefer_const_constructors, prefer_const_literals_to_create_immutables, await_only_futures, avoid_print
 
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 Color c1 = Color(0xff0b0b11);
@@ -24,3 +25,4 @@ Color dashCardsubHead = Color(0xffa2a3ff);
 Color dashSubHead = Color(0xff9a94f7);
 Color black = Color(0xff252525);
 int a = 0;
+User? currentuser;

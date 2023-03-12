@@ -6,7 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:icons_plus/icons_plus.dart';
 import '/Screens/primaryScreens/home_screen.dart';
 import '/Screens/primaryScreens/learning_home.dart';
-import '/Screens/primaryScreens/other.dart';
+import 'profile.dart';
 import '/constants.dart';
 
 class DecisionHomeScreen extends StatefulWidget {
@@ -45,7 +45,7 @@ class _DecisionHomeScreenState extends State<DecisionHomeScreen> {
                 children: [
                   HomeScreen(user: user, left: left, controller: controller),
                   LearningHome(),
-                  Others(),
+                  Profile(),
                 ],
               )),
         ),
@@ -94,15 +94,15 @@ class _DecisionHomeScreenState extends State<DecisionHomeScreen> {
         ),
         BottomNavigationBarItem(
           activeIcon: Icon(
-            Bootstrap.three_dots,
+            Icons.account_circle,
             color: dashSubHead,
           ),
           icon: Icon(
-            Bootstrap.three_dots_vertical,
+            Icons.account_circle_outlined,
             color: dashSubHead,
           ),
-          label: "Home",
-          tooltip: "Home",
+          label: "Profile",
+          tooltip: "Profile",
         )
       ],
     );
