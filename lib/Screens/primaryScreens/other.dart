@@ -24,17 +24,16 @@ class _OthersState extends State<Others> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Welcome to Learn X",
-                style: GoogleFonts.ptSerif(color: c4, fontSize: 46),
+                "Learn X",
+                style: GoogleFonts.ptSerif(fontSize: 46),
               ),
               Text(
                 "- Shortest Way to Learn Code",
-                style:
-                    GoogleFonts.ptSerif(color: dashCardsubHead, fontSize: 23),
+                style: GoogleFonts.ptSerif(color: Colors.black38, fontSize: 23),
               ),
             ],
           ),
