@@ -1,0 +1,34 @@
+ Padding(
+              padding: const EdgeInsets.symmetric(vertical: 16.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  FloatingActionButton(
+                    heroTag: "tag1",
+                    onPressed: controller.swipe,
+                    child: const Icon(Icons.rotate_right),
+                  ),
+                  FloatingActionButton(
+                    heroTag: "tag2",
+                    onPressed: controller.swipeLeft,
+                    child: const Icon(Icons.keyboard_arrow_left),
+                  ),
+                  FloatingActionButton(
+                    heroTag: "tag3",
+                    onPressed: controller.swipeRight,
+                    child: const Icon(Icons.keyboard_arrow_right),
+                  ),
+                  FloatingActionButton(
+                    heroTag: "tag4",
+                    onPressed: controller.swipeTop,
+                    child: const Icon(Icons.keyboard_arrow_up),
+                  ),
+                  FloatingActionButton(
+                    heroTag: "tag5",
+                    onPressed: controller.swipeBottom,
+                    child: const Icon(Icons.keyboard_arrow_down),
+                  ),
+                ],
+              ),
+            )
+          

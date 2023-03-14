@@ -43,8 +43,8 @@ class _DecisionHomeScreenState extends State<DecisionHomeScreen> {
                   });
                 },
                 children: [
-                  HomeScreen(user: user, left: left, controller: controller),
                   LearningHome(),
+                  HomeScreen(user: user, left: left, controller: controller),
                   Profile(),
                 ],
               )),
