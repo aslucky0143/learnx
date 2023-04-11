@@ -59,7 +59,7 @@ class _TextFetchDatailsState extends State<TextFetchDatails> {
                           content: data['content'],
                           example: data['example'],
                           syntax: data['syntax'],
-                          title: data['head'],  
+                          title: data['head'],
                         );
                       }
                       return LinearProgressIndicator();

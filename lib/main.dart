@@ -8,9 +8,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '/Firebase%20Functions/Auth/auth_functions.dart';
 import '/Screens/appSplash.dart';
 import 'dart:io' show Platform;
-import '/constants.dart'; 
-void main() async {
+import '/constants.dart';
 
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   final pref = await SharedPreferences.getInstance();
