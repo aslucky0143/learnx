@@ -77,9 +77,11 @@ class _CardCollectionPageState extends State<CardCollection> {
           children: [
             Flexible(
               child: CardSwiper(
+                cardsCount: cards.length,
+                cardBuilder: (context, index) {
+                  return Text("");
+                },
                 controller: controller,
-                cards: cards,
-                onSwipe: _swipe,
               ),
             ),
             Padding(

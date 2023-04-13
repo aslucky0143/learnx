@@ -16,8 +16,6 @@ class CardView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print(
-        "\nimgUrl :$imgUrl \ntitle \:$title \ncontent:$content \nsyntax :$syntax \nexample:$example");
     return Container(
       alignment: Alignment.center,
       decoration: BoxDecoration(

@@ -1,0 +1,26 @@
+
+HTML Semantic elements are used to give meaning and structure to the content of a webpage, making it easier for search engines and assistive technologies to understand the content. Here are some commonly used semantic elements in HTML:
+
+<header>: This tag is used to define the header of a webpage, which usually contains the site's logo, navigation menu, and other important information.
+
+<nav>: This tag is used to define the navigation menu of a webpage.
+
+<main>: This tag is used to define the main content of a webpage.
+
+<article>: This tag is used to define a self-contained piece of content, such as a blog post or news article.
+
+<section>: This tag is used to define a section of content within an HTML document.
+
+<aside>: This tag is used to define content that is related to the main content but not part of it, such as a sidebar.
+
+<footer>: This tag is used to define the footer of a webpage, which usually contains copyright information, social media links, and other relevant information.
+
+<figure> and <figcaption>: These tags are used to define a figure and its caption, such as an image with a caption.
+
+<time>: This tag is used to define a date or time.
+
+<progress>: This tag is used to define a progress bar.
+
+<meter>: This tag is used to define a gauge or meter, such as a battery level.
+
+Using semantic elements can help improve the accessibility and SEO (search engine optimization) of a webpage, as well as make the code more readable and easier to maintain.

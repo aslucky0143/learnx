@@ -1,0 +1,17 @@
+The <head> element is used to contain the metadata of an HTML document, including links to external resources and scripts. Here are some commonly used head tags:
+
+<title>: This tag is used to specify the title of the HTML document that appears in the browser's title bar.
+
+<meta>: This tag is used to specify various metadata about the HTML document, such as the character encoding, keywords, and description. The charset attribute is commonly used to specify the character encoding of the document.
+
+<link>: This tag is used to link to external resources, such as stylesheets, favicons, and web fonts.
+
+<script>: This tag is used to define scripts that are used to add interactivity to the HTML document, such as JavaScript.
+
+<style>: This tag is used to define CSS styles that are used to modify the appearance of the HTML document.
+
+<base>: This tag is used to specify the base URL for all relative URLs in the HTML document.
+
+<noscript>: This tag is used to provide alternative content for users who have disabled JavaScript in their browser.
+
+These tags are typically placed within the <head> element of an HTML document, which is located before the <body> element.

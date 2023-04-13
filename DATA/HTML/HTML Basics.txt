@@ -1,0 +1,27 @@
+Here are some basic HTML tags that are commonly used to structure and format content on a webpage:
+
+<html>: This tag is used to define the beginning and end of an HTML document.
+
+<head>: This tag is used to contain the metadata of an HTML document, including links to external resources and scripts.
+
+<title>: This tag is used to specify the title of the HTML document that appears in the browser's title bar.
+
+<body>: This tag is used to contain the visible content of an HTML document.
+
+<h1> to <h6>: These tags are used to define headings, with <h1> being the largest and most important heading and <h6> being the smallest.
+
+<p>: This tag is used to define a paragraph of text.
+
+<a>: This tag is used to define a hyperlink to another webpage or resource.
+
+<img>: This tag is used to display an image on the webpage.
+
+<ul> and <li>: These tags are used to create an unordered list.
+
+<ol> and <li>: These tags are used to create an ordered list.
+
+<div>: This tag is used to group and organize content on the webpage.
+
+<span>: This tag is used to apply styles to specific text within a paragraph or other element.
+
+These are just a few examples of the many HTML tags that are available. HTML tags are combined with attributes to create various elements that can be displayed on a webpage.

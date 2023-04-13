@@ -1,0 +1,35 @@
+HTML attributes provide additional information about HTML elements. Here are some commonly used HTML attributes:
+
+class: This attribute is used to specify one or more class names for an HTML element. It is commonly used to apply CSS styles to a group of elements.
+
+id: This attribute is used to specify a unique identifier for an HTML element. It is commonly used for JavaScript and CSS styling purposes.
+
+src: This attribute is used to specify the source URL of an image or a script.
+
+href: This attribute is used to specify the destination URL of a hyperlink.
+
+alt: This attribute is used to provide alternative text for an image element in case the image cannot be displayed.
+
+title: This attribute is used to provide a title or tooltip text for an HTML element.
+
+style: This attribute is used to apply inline CSS styles to an HTML element.
+
+target: This attribute is used to specify where to open the destination of a hyperlink. For example, _blank will open the link in a new tab or window.
+
+disabled: This attribute is used to disable an HTML element, such as a button or an input field.
+
+value: This attribute is used to specify the value of an input element, such as a text field or a checkbox.
+
+name: This attribute is used to specify the name of an input element, which is used to identify the element when the form is submitted.
+
+required: This attribute is used to specify that an input element must be filled out before the form can be submitted.
+
+maxlength: This attribute is used to specify the maximum length of an input element, such as a text field.
+
+placeholder: This attribute is used to provide a placeholder text for an input element, which disappears when the user starts typing.
+
+autocomplete: This attribute is used to specify whether the browser should automatically complete the input values based on previous inputs by the user.
+
+
+
+

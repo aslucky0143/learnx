@@ -44,7 +44,8 @@ dependencies:
   shared_preferences: ^2.0.17
   icons_plus: ^3.0.0  
   cloud_firestore: ^4.3.2
-  flutter_card_swiper: ^2.0.1
+  flutter_card_swiper: ^4.1.2
+  flutter_tindercard: ^0.2.0
 
 dev_dependencies:
   flutter_test:

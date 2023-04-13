@@ -1,0 +1,21 @@
+HTML forms are used to collect information from users and submit it to a server for processing. Here are some commonly used HTML form tags:
+
+<form>: This tag defines the start of an HTML form and specifies the method used to send the form data to the server.
+
+<input>: This tag creates an input field where users can enter data. It can be used for different types of input, such as text, email, password, checkbox, radio, date, and more.
+
+<select>: This tag creates a drop-down list from which users can select one or more options.
+
+<option>: This tag defines an option in a <select> element.
+
+<textarea>: This tag creates a multi-line text input field for users to enter longer text.
+
+<label>: This tag is used to associate a label with an input element. The label is typically used to provide a description of what should be entered in the input field.
+
+<button>: This tag creates a button that can be used to submit the form or perform other actions.
+
+<fieldset> and <legend>: These tags are used to group related form elements together and provide a title or description for the group.
+
+<form action>: This attribute specifies the URL of the page that will process the form data.
+
+<form method>: This attribute specifies the HTTP method used to send the form data to the server. The two most common methods are GET and POST.
