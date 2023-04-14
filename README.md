@@ -1,4 +1,4 @@
-# Learn X
+# Learn X - the quick and efficient way to learn to code
 
 A new Flutter project. This project helps the a student to learn the subject in a very easiest form that a user can
 
