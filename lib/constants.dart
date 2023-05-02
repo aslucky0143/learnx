@@ -27,3 +27,5 @@ Color black = Color(0xff252525);
 int a = 0;
 
 User? currentuser;
+
+List<Widget> current_list = [];
